@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Words - Daily Vocabulary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .info-section {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        
+        .info-section h2 {
+            color: #667eea;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .info-section p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+        
+        .templates-section {
+            margin-top: 30px;
+        }
+        
+        .templates-section h2 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .template-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .template-card {
+            background: #f9f9f9;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .template-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+        
+        .template-card h3 {
+            color: #667eea;
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .template-card p {
+            color: #666;
+            font-size: 12px;
+            margin-bottom: 12px;
+            min-height: 40px;
+        }
+        
+        .template-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        
+        .template-link:hover {
+            background: #764ba2;
+        }
+        
+        .copy-btn {
+            background: #f0f4ff;
+            border: 1px solid #667eea;
+            color: #667eea;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-left: 5px;
+        }
+        
+        .copy-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .url-box {
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            word-break: break-all;
+            color: #666;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✏️ Isaac's Words</h1>
+        <p class="subtitle">Daily vocabulary learning for grades 1-2</p>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <span class="stat-number">30</span>
+                <span class="stat-label">Total Words</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">20</span>
+                <span class="stat-label">Grade 1</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">10</span>
+                <span class="stat-label">Grade 2</span>
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <h2>📱 How to Use</h2>
+            <p>1. Copy the URL of any template below</p>
+            <p>2. In SenseCraft HMI, use the "Web Content" feature</p>
+            <p>3. Paste the URL as the content source</p>
+            <p>4. The template will auto-generate with a random/daily word and emoji</p>
+        </div>
+        
+        <div class="info-section">
+            <h2>📊 Data Files</h2>
+            <p><strong>Master Word List:</strong></p>
+            <p>All 30 vocabulary words with definitions and examples</p>
+            <div class="url-box">
+                /isaac-words/data/isaac-words.json
+            </div>
+        </div>
+        
+        <div class="templates-section">
+            <h2>🎨 Available Templates</h2>
+            
+            <div class="template-grid">
+                <div class="template-card">
+                    <h3>📍 Random Word</h3>
+                    <p>Shows a random word from all 30 words each time</p>
+                    <a href="templates/isaac-words-random.json" class="template-link">View Template</a>
+                </div>
+                
+                <div class="template-card">
+                    <h3>🎓 Grade 1 Only</h3>
+                    <p>Shows random words from Grade 1 list (20 words)</p>
+                    <a href="templates/isaac-words-grade1.json" class="template-link">View Template</a>
+                </div>
+                
+                <div class="template-card">
+                    <h3>📖 Grade 2 Only</h3>
+                    <p>Shows random words from Grade 2 list (10 words)</p>
+                    <a href="templates/isaac-words-grade2.json" class="template-link">View Template</a>
+                </div>
+                
+                <div class="template-card">
+                    <h3>📅 Daily Word</h3>
+                    <p>Cycles through all 30 words sequentially, one per day</p>
+                    <a href="templates/isaac-words-daily.json" class="template-link">View Template</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <h2>🔄 Automation</h2>
+            <p><strong>Python Scripts:</strong></p>
+            <p>Scripts are available to auto-generate new template files with fresh word data:</p>
+            <ul style="margin-left: 20px; margin-top: 10px; color: #666;">
+                <li><code style="background: #f0f0f0; padding: 2px 4px;">isaac_word_generator.py</code> - Generates all 4 template variants</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

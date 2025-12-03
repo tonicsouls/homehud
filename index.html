@@ -3,74 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOMEHUD Dashboard API</title>
+    <title>HOMEHUD Dashboard</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             padding: 20px;
-            background: #1a1a1a;
-            color: #fff;
         }
-        h1 { color: #00FF88; }
-        .endpoint {
-            background: #2a2a2a;
-            padding: 15px;
-            margin: 10px 0;
-            border-left: 4px solid #00FF88;
-            border-radius: 4px;
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            max-width: 1000px;
+            width: 100%;
         }
-        .endpoint h3 { margin-top: 0; }
-        code {
-            background: #000;
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 36px;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+        
+        .sections-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .section-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #fff 100%);
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+        
+        .section-card.isaac {
+            border-top: 4px solid #667eea;
+        }
+        
+        .section-card.isaac:hover {
+            background: linear-gradient(135deg, #f0f4ff 0%, #fff 100%);
+        }
+        
+        .section-card.pokemon {
+            border-top: 4px solid #FF6B9D;
+        }
+        
+        .section-card.pokemon:hover {
+            background: linear-gradient(135deg, #fff3f5 0%, #fff 100%);
+        }
+        
+        .section-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .section-card h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+        
+        .section-card.isaac h2 {
+            color: #667eea;
+        }
+        
+        .section-card.pokemon h2 {
+            color: #FF6B9D;
+        }
+        
+        .section-card p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            min-height: 50px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        
+        .section-card.isaac .cta-button {
+            background: #667eea;
+            color: white;
+        }
+        
+        .section-card.isaac .cta-button:hover {
+            background: #764ba2;
+        }
+        
+        .section-card.pokemon .cta-button {
+            background: #FF6B9D;
+            color: white;
+        }
+        
+        .section-card.pokemon .cta-button:hover {
+            background: #FF1744;
+        }
+        
+        .info-banner {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .info-banner h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .info-banner p {
+            margin-bottom: 8px;
+        }
+        
+        .code {
+            background: #f5f5f5;
             padding: 2px 6px;
-            border-radius: 3px;
-            color: #00FF88;
-        }
-        pre {
-            background: #000;
-            padding: 10px;
             border-radius: 4px;
-            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            color: #333;
         }
     </style>
 </head>
 <body>
-    <h1>🏠 HOMEHUD Dashboard API</h1>
-    <p>Hosted data for e-ink dashboard display on reTerminal E1001</p>
-    
-    <h2>Available Endpoints</h2>
-    
-    <div class="endpoint">
-        <h3>📖 Get Random Quotes</h3>
-        <p><code>GET /data/quotes/random</code></p>
-        <p>Returns 2-4 random wisdom quotes without duplicates</p>
-        <pre>curl https://yourusername.github.io/homehud/data/quotes/random</pre>
+    <div class="container">
+        <h1>📱 HOMEHUD Dashboard</h1>
+        <p class="subtitle">Modular e-ink dashboard system for reTerminal E1001</p>
+        
+        <div class="sections-grid">
+            <div class="section-card isaac">
+                <span class="section-icon">✏️</span>
+                <h2>Isaac's Words</h2>
+                <p>Daily vocabulary learning with emojis for grades 1-2. 30 carefully selected words with definitions and examples.</p>
+                <a href="isaac-words/" class="cta-button">View Module →</a>
+            </div>
+            
+            <div class="section-card pokemon">
+                <span class="section-icon">🔥</span>
+                <h2>Pokemon Beach News</h2>
+                <p>Live-updating community news and articles from Pokemon Beach forums. Auto-refreshes with latest content every 30 minutes.</p>
+                <a href="pokemon-news/" class="cta-button">View Module →</a>
+            </div>
+        </div>
+        
+        <div class="info-banner">
+            <h3>📋 About This Structure</h3>
+            <p>Each module is a <strong>self-contained directory</strong> that can be independently deployed to your SenseCraft HMI display. Each module contains:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li><span class="code">index.html</span> - Documentation and setup guide</li>
+                <li><span class="code">data/</span> - Source data files (words, articles, etc)</li>
+                <li><span class="code">templates/</span> - SenseCraft JSON templates for the display</li>
+            </ul>
+            <p style="margin-top: 15px;">To use any module in SenseCraft, simply copy the template URL (hosted on GitHub Pages) into the Web Content feature.</p>
+        </div>
     </div>
-    
-    <div class="endpoint">
-        <h3>🗂️ Quote Files</h3>
-        <ul>
-            <li><code>/data/quotes/quotes-part1.json</code> - Builders & Disruptors (45 quotes)</li>
-            <li><code>/data/quotes/quotes-part2.json</code> - Philosophers & Innovators (45 quotes)</li>
-            <li><code>/data/quotes/quotes-part3.json</code> - Entrepreneurs & Iron Wills (60 quotes)</li>
-        </ul>
-    </div>
-    
-    <div class="endpoint">
-        <h3>📰 Dashboard Templates</h3>
-        <ul>
-            <li><code>/templates/rotating-quotes-2.json</code> - 2-quote display</li>
-            <li><code>/templates/rotating-quotes-4.json</code> - 4-quote grid display</li>
-            <li><code>/templates/pokemon-beach-rss.json</code> - Pokemon news feed</li>
-        </ul>
-    </div>
-    
-    <h2>Quick Start</h2>
-    <p>All data files are JSON and can be fetched directly for use in SenseCraft dashboards or custom applications.</p>
-    
-    <hr>
-    <p><small>Last updated: December 2, 2025</small></p>
 </body>
 </html>

@@ -1,0 +1,43 @@
+{
+  "stageElements": [
+    {
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 50,
+      "fontSize": 28,
+      "fontWeight": "bold",
+      "color": "#FF6B9D",
+      "textAlign": "center",
+      "value": "🔥 POKEMON BEACH NEWS"
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 60,
+      "width": 760,
+      "height": 380,
+      "fontSize": 12,
+      "color": "#CCCCCC",
+      "textAlign": "left",
+      "value": "📰 Mega Lucario Z from \"Mega Dimension\" DLC Revealed, First \"Z\" Mega Evolution!\n\n📰 Seeking a Way Back Into The Meta — Revisiting Terapagos / Noctowl With Phantasmal Flames\n\n📰 New Cards to Expect in Japan's \"Start Deck 100 Battle Collection\" for \"Ascended Heroes,\" Including Mega Charizard Y ex SIR!"
+    },
+    {
+      "type": "text",
+      "x": 0,
+      "y": 450,
+      "width": 800,
+      "height": 30,
+      "fontSize": 10,
+      "color": "#666666",
+      "textAlign": "center",
+      "value": "Updated: Auto-fetching | Source: Pokemon Beach Community"
+    }
+  ],
+  "container": {
+    "width": 800,
+    "height": 480,
+    "background": "#000000"
+  }
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Beach News</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #FF6B9D 0%, #FF1744 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .info-section {
+            background: #fff3f5;
+            border-left: 4px solid #FF6B9D;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        
+        .info-section h2 {
+            color: #FF6B9D;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .info-section p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+        
+        .templates-section {
+            margin-top: 30px;
+        }
+        
+        .templates-section h2 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #FF6B9D;
+            padding-bottom: 10px;
+        }
+        
+        .template-card {
+            background: #f9f9f9;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .template-card:hover {
+            border-color: #FF6B9D;
+            box-shadow: 0 5px 15px rgba(255, 107, 157, 0.2);
+        }
+        
+        .template-card h3 {
+            color: #FF6B9D;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .template-card p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .template-link {
+            display: inline-block;
+            background: #FF6B9D;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        
+        .template-link:hover {
+            background: #FF1744;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #FF6B9D 0%, #FF1744 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+        
+        .feature-list {
+            background: #f0f0f0;
+            border-left: 4px solid #FF6B9D;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .feature-list h3 {
+            color: #FF6B9D;
+            margin-bottom: 12px;
+        }
+        
+        .feature-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .feature-list li {
+            color: #555;
+            padding: 6px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .feature-list li:before {
+            content: "✓ ";
+            color: #FF6B9D;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .url-box {
+            background: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            word-break: break-all;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 Pokemon Beach News</h1>
+        <p class="subtitle">Latest community discussions and articles from Pokemon Beach forums</p>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <span class="stat-number">Auto</span>
+                <span class="stat-label">Updates Every 30 Min</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">3-4</span>
+                <span class="stat-label">Articles Per Update</span>
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <h2>📱 How to Use</h2>
+            <p><strong>Step 1:</strong> Copy the template URL below</p>
+            <p><strong>Step 2:</strong> In SenseCraft HMI, select "Web Content"</p>
+            <p><strong>Step 3:</strong> Paste the URL as the content source</p>
+            <p><strong>Step 4:</strong> The display updates automatically every 30 minutes with latest news</p>
+        </div>
+        
+        <div class="feature-list">
+            <h3>✨ Features</h3>
+            <ul>
+                <li>Fetches latest articles from Pokemon Beach RSS feed</li>
+                <li>Displays top 3-4 most recent articles</li>
+                <li>Auto-refreshes every 30 minutes</li>
+                <li>Shows article summaries (200 char max)</li>
+                <li>Includes source attribution</li>
+            </ul>
+        </div>
+        
+        <div class="templates-section">
+            <h2>🎨 Live Template</h2>
+            
+            <div class="template-card">
+                <h3>📺 Pokemon Beach News Feed</h3>
+                <p>Live-updating template that displays the 3-4 most recent articles from the Pokemon Beach community. Updates automatically every 30 minutes with fresh content.</p>
+                <a href="templates/pokemon-beach-news-updated.json" class="template-link">View Live Template</a>
+                <div class="url-box">
+                    /pokemon-news/templates/pokemon-beach-news-updated.json
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <h2>🔄 Automation Scripts</h2>
+            <p><strong>Auto-update script:</strong></p>
+            <p>The following script runs every 30 minutes to fetch fresh articles and update the template:</p>
+            <div class="url-box" style="background: #f5f5f5; margin-top: 10px;">
+                rss_feed_updater.py
+            </div>
+            <p style="margin-top: 10px; font-size: 12px; color: #999;">Uses feedparser library to fetch RSS, truncate articles to 200 chars, and generate SenseCraft-compatible JSON</p>
+        </div>
+    </div>
+</body>
+</html>
