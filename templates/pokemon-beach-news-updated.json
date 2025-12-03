@@ -1,0 +1,43 @@
+{
+  "stageElements": [
+    {
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 50,
+      "fontSize": 28,
+      "fontWeight": "bold",
+      "color": "#FF6B9D",
+      "textAlign": "center",
+      "value": "\ud83d\udd25 POKEMON BEACH NEWS"
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 60,
+      "width": 760,
+      "height": 380,
+      "fontSize": 12,
+      "color": "#CCCCCC",
+      "textAlign": "left",
+      "value": "\ud83d\udcf0 Mega Lucario Z from \u201cMega Dimension\u201d DLC Revealed, First \u201cZ\u201d Mega Evolution!\n<div class=\"bbWrapper\"><blockquote class=\"bbCodeBlock bbCodeBlock--expa\n\n\ud83d\udcf0 Seeking a Way Back Into The Meta \u2014 Revisiting Terapagos / Noctowl With Phantasmal Flames\n<div class=\"bbWrapper\"><blockquote class=\"bbCodeBlock bbCod\n\n\ud83d\udcf0 New Cards to Expect in Japan\u2019s \u201cStart Deck 100 Battle Collection\u201d for \u201cAscended Heroes,\u201d Including Mega Charizard Y ex SIR!\n<div class=\"bbWrapper\"><"
+    },
+    {
+      "type": "text",
+      "x": 0,
+      "y": 450,
+      "width": 800,
+      "height": 30,
+      "fontSize": 10,
+      "color": "#666666",
+      "textAlign": "center",
+      "value": "Updated: 12/02 23:16 | Source: Pikalytics Forum"
+    }
+  ],
+  "container": {
+    "width": 800,
+    "height": 480,
+    "background": "#000000"
+  }
+}
