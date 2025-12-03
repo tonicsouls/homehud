@@ -65,19 +65,19 @@ class IsaacWordGenerator:
             return False
         
         # Update template elements
-        for elem in template['elements']:
-            if elem['id'] == 'emoji':
+        for elem in template.get('elements', []):
+            if elem.get('id') == 'emoji':
                 elem['value'] = word.get('emoji', '📝')
-            elif elem['id'] == 'word':
+            elif elem.get('id') == 'word':
                 elem['value'] = word.get('word', 'Word')
-            elif elem['id'] == 'definition':
+            elif elem.get('id') == 'definition':
                 elem['value'] = word.get('definition', 'Definition')
-            elif elem['id'] == 'example':
+            elif elem.get('id') == 'example':
                 elem['value'] = f"Example: {word.get('example', 'Example sentence')}"
-            elif elem['id'] == 'grade':
+            elif elem.get('id') == 'footer':
                 grade = word.get('grade', 1)
                 category = word.get('category', 'Learning')
-                elem['value'] = f"Grade {grade} | Category: {category}"
+                elem['value'] = f"Grade {grade} | {category}"
         
         # Save output
         if output_file is None:

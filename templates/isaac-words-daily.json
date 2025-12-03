@@ -99,7 +99,7 @@
       "id": "grade",
       "textAlign": "center",
       "type": "text",
-      "value": "Grade 1 | Category: Animals",
+      "value": "Grade 1 | Category: Food",
       "width": 760,
       "x": 20,
       "y": 420
@@ -111,7 +111,7 @@
       "id": "footer",
       "textAlign": "center",
       "type": "text",
-      "value": "Learn one new word every day! \ud83d\udcda",
+      "value": "Grade 1 | Animals",
       "width": 760,
       "x": 20,
       "y": 460

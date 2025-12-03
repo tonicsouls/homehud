@@ -50,7 +50,7 @@
       "id": "emoji",
       "textAlign": "center",
       "type": "text",
-      "value": "\ud83e\udd1d",
+      "value": "\ud83c\udf05",
       "width": 760,
       "x": 20,
       "y": 70
@@ -63,7 +63,7 @@
       "id": "word",
       "textAlign": "center",
       "type": "text",
-      "value": "Friendship",
+      "value": "Horizon",
       "width": 760,
       "x": 20,
       "y": 170
@@ -75,7 +75,7 @@
       "id": "definition",
       "textAlign": "center",
       "type": "text",
-      "value": "A special bond between people who like each other",
+      "value": "The line where the sky meets the ground or water",
       "width": 720,
       "x": 40,
       "y": 230
@@ -87,7 +87,7 @@
       "id": "example",
       "textAlign": "center",
       "type": "text",
-      "value": "Example: My friendship with my best friend is special",
+      "value": "Example: The sun set over the horizon",
       "width": 720,
       "x": 40,
       "y": 300
@@ -99,7 +99,7 @@
       "id": "grade",
       "textAlign": "center",
       "type": "text",
-      "value": "Grade 2 | Category: People",
+      "value": "Grade 1 | Category: Food",
       "width": 760,
       "x": 20,
       "y": 420
@@ -111,7 +111,7 @@
       "id": "footer",
       "textAlign": "center",
       "type": "text",
-      "value": "Learn one new word every day! \ud83d\udcda",
+      "value": "Grade 2 | Sky",
       "width": 760,
       "x": 20,
       "y": 460
