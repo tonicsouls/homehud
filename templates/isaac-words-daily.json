@@ -1,0 +1,128 @@
+{
+  "elements": [
+    {
+      "color": "#FFFFFF",
+      "fontSize": 32,
+      "fontWeight": "bold",
+      "height": 50,
+      "id": "title",
+      "textAlign": "center",
+      "type": "text",
+      "value": "\u270f\ufe0f ISAAC'S WORD OF THE DAY",
+      "width": 760,
+      "x": 20,
+      "y": 10
+    },
+    {
+      "color": "#CCCCCC",
+      "dataTransform": {
+        "options": {
+          "dateFormat": "MM/dd/yyyy",
+          "timezone": "America/Chicago",
+          "useCurrentTime": true
+        },
+        "type": "dateFormat"
+      },
+      "fontSize": 14,
+      "height": 20,
+      "id": "date",
+      "textAlign": "right",
+      "type": "date",
+      "width": 150,
+      "x": 630,
+      "y": 22
+    },
+    {
+      "cornerRadius": 12,
+      "fill": "#1A3A1A",
+      "height": 400,
+      "id": "word-box",
+      "stroke": "#00FF88",
+      "strokeWidth": 2,
+      "type": "round_rectangle",
+      "width": 760,
+      "x": 20,
+      "y": 60
+    },
+    {
+      "fontSize": 80,
+      "height": 100,
+      "id": "emoji",
+      "textAlign": "center",
+      "type": "text",
+      "value": "\ud83d\udc1f",
+      "width": 760,
+      "x": 20,
+      "y": 70
+    },
+    {
+      "color": "#00FF88",
+      "fontSize": 36,
+      "fontWeight": "bold",
+      "height": 50,
+      "id": "word",
+      "textAlign": "center",
+      "type": "text",
+      "value": "Fish",
+      "width": 760,
+      "x": 20,
+      "y": 170
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 16,
+      "height": 60,
+      "id": "definition",
+      "textAlign": "center",
+      "type": "text",
+      "value": "An animal that lives in water",
+      "width": 720,
+      "x": 40,
+      "y": 230
+    },
+    {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "height": 80,
+      "id": "example",
+      "textAlign": "center",
+      "type": "text",
+      "value": "Example: The fish swims in the aquarium",
+      "width": 720,
+      "x": 40,
+      "y": 300
+    },
+    {
+      "color": "#888888",
+      "fontSize": 12,
+      "height": 20,
+      "id": "grade",
+      "textAlign": "center",
+      "type": "text",
+      "value": "Grade 1 | Category: Animals",
+      "width": 760,
+      "x": 20,
+      "y": 420
+    },
+    {
+      "color": "#666666",
+      "fontSize": 10,
+      "height": 15,
+      "id": "footer",
+      "textAlign": "center",
+      "type": "text",
+      "value": "Learn one new word every day! \ud83d\udcda",
+      "width": 760,
+      "x": 20,
+      "y": 460
+    }
+  ],
+  "stageElements": [],
+  "container": {
+    "background": "#000000",
+    "width": 800,
+    "height": 480,
+    "x": 600,
+    "y": 510
+  }
+}

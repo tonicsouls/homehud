@@ -1,0 +1,311 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "word": "Apple",
+      "emoji": "🍎",
+      "definition": "A red or green fruit that grows on trees",
+      "example": "I eat an apple for a healthy snack",
+      "grade": 1,
+      "category": "Food",
+      "hint": "Starts with 'A'"
+    },
+    {
+      "id": 2,
+      "word": "Ball",
+      "emoji": "⚽",
+      "definition": "A round object you can throw and catch",
+      "example": "Let's play with the ball outside",
+      "grade": 1,
+      "category": "Toys",
+      "hint": "Starts with 'B'"
+    },
+    {
+      "id": 3,
+      "word": "Cat",
+      "emoji": "🐱",
+      "definition": "A small animal with four legs and whiskers",
+      "example": "My cat likes to sleep on my lap",
+      "grade": 1,
+      "category": "Animals",
+      "hint": "Starts with 'C'"
+    },
+    {
+      "id": 4,
+      "word": "Dog",
+      "emoji": "🐕",
+      "definition": "A friendly animal that barks and wags its tail",
+      "example": "The dog runs and plays at the park",
+      "grade": 1,
+      "category": "Animals",
+      "hint": "Starts with 'D'"
+    },
+    {
+      "id": 5,
+      "word": "Egg",
+      "emoji": "🥚",
+      "definition": "Something a chicken lays that you can cook and eat",
+      "example": "I ate a scrambled egg for breakfast",
+      "grade": 1,
+      "category": "Food",
+      "hint": "Starts with 'E'"
+    },
+    {
+      "id": 6,
+      "word": "Fish",
+      "emoji": "🐟",
+      "definition": "An animal that lives in water",
+      "example": "The fish swims in the aquarium",
+      "grade": 1,
+      "category": "Animals",
+      "hint": "Starts with 'F'"
+    },
+    {
+      "id": 7,
+      "word": "Garden",
+      "emoji": "🌻",
+      "definition": "A place where you grow flowers and vegetables",
+      "example": "We planted seeds in the garden",
+      "grade": 1,
+      "category": "Places",
+      "hint": "Starts with 'G'"
+    },
+    {
+      "id": 8,
+      "word": "House",
+      "emoji": "🏠",
+      "definition": "A building where people live",
+      "example": "My house has a big backyard",
+      "grade": 1,
+      "category": "Places",
+      "hint": "Starts with 'H'"
+    },
+    {
+      "id": 9,
+      "word": "Ice",
+      "emoji": "❄️",
+      "definition": "Frozen water that is very cold",
+      "example": "We skate on the ice in winter",
+      "grade": 1,
+      "category": "Nature",
+      "hint": "Starts with 'I'"
+    },
+    {
+      "id": 10,
+      "word": "Jump",
+      "emoji": "🦘",
+      "definition": "To push off the ground and go into the air",
+      "example": "I can jump really high",
+      "grade": 1,
+      "category": "Actions",
+      "hint": "Starts with 'J'"
+    },
+    {
+      "id": 11,
+      "word": "Kite",
+      "emoji": "🪁",
+      "definition": "A toy that flies in the wind with a long string",
+      "example": "I flew my kite on a windy day",
+      "grade": 1,
+      "category": "Toys",
+      "hint": "Starts with 'K'"
+    },
+    {
+      "id": 12,
+      "word": "Lion",
+      "emoji": "🦁",
+      "definition": "A big wild cat with a big mane",
+      "example": "The lion roars loudly",
+      "grade": 1,
+      "category": "Animals",
+      "hint": "Starts with 'L'"
+    },
+    {
+      "id": 13,
+      "word": "Moon",
+      "emoji": "🌙",
+      "definition": "The bright light in the sky at night",
+      "example": "The moon is round and pretty",
+      "grade": 1,
+      "category": "Sky",
+      "hint": "Starts with 'M'"
+    },
+    {
+      "id": 14,
+      "word": "Nest",
+      "emoji": "🪶",
+      "definition": "A home that birds make with twigs and grass",
+      "example": "The bird made a nest in the tree",
+      "grade": 1,
+      "category": "Nature",
+      "hint": "Starts with 'N'"
+    },
+    {
+      "id": 15,
+      "word": "Orange",
+      "emoji": "🍊",
+      "definition": "A round orange fruit that is sweet and juicy",
+      "example": "I peeled the orange and ate it",
+      "grade": 1,
+      "category": "Food",
+      "hint": "Starts with 'O'"
+    },
+    {
+      "id": 16,
+      "word": "Pig",
+      "emoji": "🐷",
+      "definition": "A farm animal with a pink snout",
+      "example": "The pig likes to play in the mud",
+      "grade": 1,
+      "category": "Animals",
+      "hint": "Starts with 'P'"
+    },
+    {
+      "id": 17,
+      "word": "Queen",
+      "emoji": "👑",
+      "definition": "A woman who rules a kingdom",
+      "example": "The queen wears a crown",
+      "grade": 1,
+      "category": "People",
+      "hint": "Starts with 'Q'"
+    },
+    {
+      "id": 18,
+      "word": "Rainbow",
+      "emoji": "🌈",
+      "definition": "Colorful bands you see in the sky after rain",
+      "example": "After the storm, we saw a rainbow",
+      "grade": 1,
+      "category": "Sky",
+      "hint": "Starts with 'R'"
+    },
+    {
+      "id": 19,
+      "word": "Star",
+      "emoji": "⭐",
+      "definition": "A tiny bright light you see in the night sky",
+      "example": "I counted the stars before bed",
+      "grade": 1,
+      "category": "Sky",
+      "hint": "Starts with 'S'"
+    },
+    {
+      "id": 20,
+      "word": "Tree",
+      "emoji": "🌳",
+      "definition": "A big plant with a trunk and leaves",
+      "example": "We climbed the tree in our yard",
+      "grade": 1,
+      "category": "Nature",
+      "hint": "Starts with 'T'"
+    },
+    {
+      "id": 21,
+      "word": "Adventure",
+      "emoji": "🗺️",
+      "definition": "An exciting journey or experience",
+      "example": "We went on an adventure to the mountains",
+      "grade": 2,
+      "category": "Actions",
+      "hint": "Something exciting"
+    },
+    {
+      "id": 22,
+      "word": "Bicycle",
+      "emoji": "🚲",
+      "definition": "A vehicle with two wheels that you ride",
+      "example": "I ride my bicycle around the neighborhood",
+      "grade": 2,
+      "category": "Vehicles",
+      "hint": "Two wheels"
+    },
+    {
+      "id": 23,
+      "word": "Butterfly",
+      "emoji": "🦋",
+      "definition": "A colorful insect with big wings",
+      "example": "The butterfly landed on the flower",
+      "grade": 2,
+      "category": "Insects",
+      "hint": "Pretty wings"
+    },
+    {
+      "id": 24,
+      "word": "Camera",
+      "emoji": "📷",
+      "definition": "A tool you use to take pictures",
+      "example": "I used my camera to take photos",
+      "grade": 2,
+      "category": "Tools",
+      "hint": "Takes pictures"
+    },
+    {
+      "id": 25,
+      "word": "Dinosaur",
+      "emoji": "🦕",
+      "definition": "A very big animal that lived long ago",
+      "example": "Dinosaurs were huge creatures",
+      "grade": 2,
+      "category": "Animals",
+      "hint": "Lived long ago"
+    },
+    {
+      "id": 26,
+      "word": "Elephant",
+      "emoji": "🐘",
+      "definition": "A very large animal with a long trunk",
+      "example": "The elephant has big ears",
+      "grade": 2,
+      "category": "Animals",
+      "hint": "Big trunk"
+    },
+    {
+      "id": 27,
+      "word": "Friendship",
+      "emoji": "🤝",
+      "definition": "A special bond between people who like each other",
+      "example": "My friendship with my best friend is special",
+      "grade": 2,
+      "category": "People",
+      "hint": "Between friends"
+    },
+    {
+      "id": 28,
+      "word": "Giraffe",
+      "emoji": "🦒",
+      "definition": "A tall animal with a very long neck",
+      "example": "The giraffe ate leaves from the top of the tree",
+      "grade": 2,
+      "category": "Animals",
+      "hint": "Very tall"
+    },
+    {
+      "id": 29,
+      "word": "Horizon",
+      "emoji": "🌅",
+      "definition": "The line where the sky meets the ground or water",
+      "example": "The sun set over the horizon",
+      "grade": 2,
+      "category": "Sky",
+      "hint": "Sky and ground meet"
+    },
+    {
+      "id": 30,
+      "word": "Island",
+      "emoji": "🏝️",
+      "definition": "A piece of land surrounded by water",
+      "example": "We took a boat to the island",
+      "grade": 2,
+      "category": "Places",
+      "hint": "Land in water"
+    }
+  ],
+  "metadata": {
+    "total_words": 30,
+    "grade_1_words": 20,
+    "grade_2_words": 10,
+    "categories": ["Food", "Toys", "Animals", "Places", "Nature", "Actions", "Sky", "Vehicles", "Insects", "Tools", "People"],
+    "last_updated": "2025-12-02"
+  }
+}
