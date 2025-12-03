@@ -21,7 +21,7 @@
       "fontSize": 12,
       "color": "#CCCCCC",
       "textAlign": "left",
-      "value": "📰 Mega Lucario Z from \"Mega Dimension\" DLC Revealed, First \"Z\" Mega Evolution!\n\n📰 Seeking a Way Back Into The Meta — Revisiting Terapagos / Noctowl With Phantasmal Flames\n\n📰 New Cards to Expect in Japan's \"Start Deck 100 Battle Collection\" for \"Ascended Heroes,\" Including Mega Charizard Y ex SIR!"
+      "value": "📰 Mega Lucario Z from \"Mega Dimension\" DLC Revealed, First \"Z\" Mega Evolution!\n<div class=\"bbWrapper\"><blockquote class=\"bbCodeBlock bbCodeBlock--expa\n\n📰 Seeking a Way Back Into The Meta — Revisiting Terapagos / Noctowl With Phantasmal Flames\n<div class=\"bbWrapper\"><blockquote class=\"bbCodeBlock bbCod\n\n📰 New Cards to Expect in Japan's \"Start Deck 100 Battle Collection\" for \"Ascended Heroes,\" Including Mega Charizard Y ex SIR!\n<div class=\"bbWrapper\"><"
     },
     {
       "type": "text",
@@ -32,7 +32,7 @@
       "fontSize": 10,
       "color": "#666666",
       "textAlign": "center",
-      "value": "Updated: Auto-fetching | Source: Pokemon Beach Community"
+      "value": "Updated: 12/03 05:51 | Source: Pikalytics Forum"
     }
   ],
   "container": {
