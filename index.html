@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEHUD Dashboard API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #fff;
+        }
+        h1 { color: #00FF88; }
+        .endpoint {
+            background: #2a2a2a;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #00FF88;
+            border-radius: 4px;
+        }
+        .endpoint h3 { margin-top: 0; }
+        code {
+            background: #000;
+            padding: 2px 6px;
+            border-radius: 3px;
+            color: #00FF88;
+        }
+        pre {
+            background: #000;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏠 HOMEHUD Dashboard API</h1>
+    <p>Hosted data for e-ink dashboard display on reTerminal E1001</p>
+    
+    <h2>Available Endpoints</h2>
+    
+    <div class="endpoint">
+        <h3>📖 Get Random Quotes</h3>
+        <p><code>GET /data/quotes/random</code></p>
+        <p>Returns 2-4 random wisdom quotes without duplicates</p>
+        <pre>curl https://yourusername.github.io/homehud/data/quotes/random</pre>
+    </div>
+    
+    <div class="endpoint">
+        <h3>🗂️ Quote Files</h3>
+        <ul>
+            <li><code>/data/quotes/quotes-part1.json</code> - Builders & Disruptors (45 quotes)</li>
+            <li><code>/data/quotes/quotes-part2.json</code> - Philosophers & Innovators (45 quotes)</li>
+            <li><code>/data/quotes/quotes-part3.json</code> - Entrepreneurs & Iron Wills (60 quotes)</li>
+        </ul>
+    </div>
+    
+    <div class="endpoint">
+        <h3>📰 Dashboard Templates</h3>
+        <ul>
+            <li><code>/templates/rotating-quotes-2.json</code> - 2-quote display</li>
+            <li><code>/templates/rotating-quotes-4.json</code> - 4-quote grid display</li>
+            <li><code>/templates/pokemon-beach-rss.json</code> - Pokemon news feed</li>
+        </ul>
+    </div>
+    
+    <h2>Quick Start</h2>
+    <p>All data files are JSON and can be fetched directly for use in SenseCraft dashboards or custom applications.</p>
+    
+    <hr>
+    <p><small>Last updated: December 2, 2025</small></p>
+</body>
+</html>

@@ -1,0 +1,339 @@
+{
+  "name": "Pokemon News",
+  "width": 800,
+  "height": 480,
+  "background": "#000000",
+  "widgets": [
+    {
+      "type": "text",
+      "x": 20,
+      "y": 10,
+      "w": 760,
+      "h": 40,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 28,
+        "fontWeight": "bold"
+      },
+      "config": {
+        "text": "⚡ POKÉMON NEWS"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 55,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.0.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 55,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.1.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 95,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.2.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 95,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.3.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 135,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.4.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 135,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.5.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 175,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.6.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 175,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.7.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 215,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.8.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 215,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.9.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 255,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.10.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 255,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.11.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 295,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.12.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 295,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.13.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 335,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.14.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 335,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.15.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 375,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.16.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 375,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#FFCB05",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.17.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 20,
+      "y": 415,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.18.title"
+      }
+    },
+    {
+      "type": "rss",
+      "x": 410,
+      "y": 415,
+      "w": 370,
+      "h": 38,
+      "style": {
+        "color": "#3B4CCA",
+        "fontSize": 11
+      },
+      "config": {
+        "dataUrl": "https://pokemonblog.com/feed/",
+        "dataKey": "rss.channel.item.19.title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 458,
+      "w": 200,
+      "h": 18,
+      "style": {
+        "color": "#666666",
+        "fontSize": 10
+      },
+      "config": {
+        "text": "pokemonblog.com/feed"
+      }
+    }
+  ]
+}

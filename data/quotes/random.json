@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-02T22:23:01.525881",
+  "quotes": [
+    {
+      "author": "Plato",
+      "message": "Courage is knowing what not to fear.",
+      "category": "Philosophers",
+      "insight": "Fear is often ignorance. Once you understand the risk, the fear vanishes. Knowledge is courage."
+    },
+    {
+      "author": "Jeff Bezos",
+      "message": "It's always Day 1.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Stasis is death. Day 2 is stasis. Remain in the start-up phase of hunger forever."
+    },
+    {
+      "author": "Abraham Lincoln",
+      "message": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe.",
+      "category": "Founding Fathers",
+      "insight": "Leverage beats brute force. Tooling and preparation save sweat and time."
+    },
+    {
+      "author": "Robert Greene",
+      "message": "Win through your actions, never through argument.",
+      "category": "Architects of the Mind",
+      "insight": "Arguments create resentment. Results create compliance. Show, don't tell."
+    }
+  ],
+  "status": {
+    "total_quotes": 300,
+    "shown_in_rotation": 4,
+    "rotation_number": 1,
+    "progress_percent": 1.3333333333333335
+  },
+  "refresh_interval": "5 minutes"
+}

@@ -1,0 +1,218 @@
+{
+  "name": "Hacker News v2",
+  "width": 800,
+  "height": 480,
+  "background": "#000000",
+  "widgets": [
+    {
+      "type": "text",
+      "x": 20,
+      "y": 10,
+      "w": 600,
+      "h": 35,
+      "style": {
+        "color": "#FF6600",
+        "fontSize": 24,
+        "fontWeight": "bold"
+      },
+      "config": {
+        "text": "HACKER NEWS"
+      }
+    },
+    {
+      "type": "text",
+      "x": 650,
+      "y": 15,
+      "w": 130,
+      "h": 25,
+      "style": {
+        "color": "#666666",
+        "fontSize": 14
+      },
+      "config": {
+        "text": "{date:MM/DD/YYYY}"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 55,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#FF6600",
+        "fontSize": 13,
+        "fontWeight": "bold"
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[0].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 90,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[1].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 125,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[2].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 160,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[3].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 195,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[4].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 230,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[5].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 265,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[6].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 300,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[7].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 335,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[8].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 370,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[9].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 405,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[10].title"
+      }
+    },
+    {
+      "type": "text",
+      "x": 20,
+      "y": 440,
+      "w": 760,
+      "h": 30,
+      "style": {
+        "color": "#CCCCCC",
+        "fontSize": 13
+      },
+      "config": {
+        "dataUrl": "https://news.ycombinator.com/rss",
+        "dataKey": "rss.channel.item[11].title"
+      }
+    }
+  ]
+}

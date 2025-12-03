@@ -1,0 +1,277 @@
+{
+  "quotes": [
+    {
+      "author": "Albert Einstein",
+      "message": "I have no special talent. I am only passionately curious.",
+      "category": "Innovators",
+      "insight": "Talent is overrated; obsession is underrated. Curiosity drives the persistence needed for mastery."
+    },
+    {
+      "author": "Albert Einstein",
+      "message": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+      "category": "Innovators",
+      "insight": "Facts get you to A to B. Imagination takes you everywhere else. Don't let data kill your vision."
+    },
+    {
+      "author": "Albert Einstein",
+      "message": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+      "category": "Innovators",
+      "insight": "Momentum provides stability. When you stop moving forward, you fall over."
+    },
+    {
+      "author": "Sir Demis Hassabis",
+      "message": "AI is a marathon, not a sprint. We must build it to understand the universe, not just mimic it.",
+      "category": "Innovators",
+      "insight": "Deep tech takes time. Don't optimize for the short-term demo; optimize for the long-term breakthrough."
+    },
+    {
+      "author": "Sir Demis Hassabis",
+      "message": "The biggest limitation of AI is our own imagination.",
+      "category": "Innovators",
+      "insight": "The tool is limitless; the bottleneck is the user. We must dream bigger to use the tech better."
+    },
+    {
+      "author": "Sir Demis Hassabis",
+      "message": "We should be very optimistic about what AI can do for humanity.",
+      "category": "Innovators",
+      "insight": "Optimism is a moral duty. Focus on the upside to have the energy to build it safely."
+    },
+    {
+      "author": "Sundar Pichai",
+      "message": "It is always good to work with people who make you feel insecure. That is how you grow.",
+      "category": "Innovators",
+      "insight": "If you are the smartest person in the room, you are in the wrong room. Seek discomfort."
+    },
+    {
+      "author": "Sundar Pichai",
+      "message": "Setbacks don't actually matter. It's a long road.",
+      "category": "Innovators",
+      "insight": "Zoom out. In the grand scheme, today's crisis is just a blip. Play the long game."
+    },
+    {
+      "author": "Sundar Pichai",
+      "message": "Wear your failure as a badge of honor.",
+      "category": "Innovators",
+      "insight": "Failure means you tried something hard. Scars are proof of ambition."
+    },
+    {
+      "author": "Seneca",
+      "message": "We suffer more often in imagination than in reality.",
+      "category": "Philosophers",
+      "insight": "Anxiety is a liar. Most of what you fear will never happen. Deal with reality, not ghosts."
+    },
+    {
+      "author": "Seneca",
+      "message": "While we are postponing, life speeds by. The present is the only time you own.",
+      "category": "Philosophers",
+      "insight": "Procrastination is theft of life. The future is promised to no one. Act now."
+    },
+    {
+      "author": "Seneca",
+      "message": "Luck is what happens when preparation meets opportunity.",
+      "category": "Philosophers",
+      "insight": "You can't control luck, but you can control readiness. Be ready when the door opens."
+    },
+    {
+      "author": "Plato",
+      "message": "The first and best victory is to conquer self.",
+      "category": "Philosophers",
+      "insight": "External conquest is meaningless without internal control. Discipline is the highest power."
+    },
+    {
+      "author": "Plato",
+      "message": "Wise men speak because they have something to say; fools because they have to say something.",
+      "category": "Philosophers",
+      "insight": "Signal vs. Noise. Speak only when it adds value. Silence is often stronger than babble."
+    },
+    {
+      "author": "Plato",
+      "message": "Courage is knowing what not to fear.",
+      "category": "Philosophers",
+      "insight": "Fear is often ignorance. Once you understand the risk, the fear vanishes. Knowledge is courage."
+    },
+    {
+      "author": "Dante Alighieri",
+      "message": "The secret of getting things done is to act!",
+      "category": "Philosophers",
+      "insight": "Analysis paralysis kills dreams. The only way out is through action."
+    },
+    {
+      "author": "Dante Alighieri",
+      "message": "Follow your own star! If you do, you cannot fail to reach a glorious haven.",
+      "category": "Philosophers",
+      "insight": "Authenticity is a compass. Ignore the crowd; follow your internal North Star."
+    },
+    {
+      "author": "Dante Alighieri",
+      "message": "Consider your origins: you were not made to live as brutes, but to follow virtue and knowledge.",
+      "category": "Philosophers",
+      "insight": "Humans are built for higher things. Don't settle for base survival; strive for excellence."
+    },
+    {
+      "author": "Jesus",
+      "message": "Blessed are the peacemakers: for they shall be called the children of God.",
+      "category": "Divine",
+      "insight": "Conflict is easy; peace is hard work. It takes divine strength to bridge divides."
+    },
+    {
+      "author": "Jesus",
+      "message": "Ye are the light of the world. A city that is set on an hill cannot be hid.",
+      "category": "Divine",
+      "insight": "Don't hide your talent. You have a duty to shine and provide value to those in darkness."
+    },
+    {
+      "author": "Jesus",
+      "message": "Seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
+      "category": "Divine",
+      "insight": "Prioritize the foundation (values/spirit) and the material success will follow as a byproduct."
+    },
+    {
+      "author": "Mark Twain",
+      "message": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+      "category": "Truth Tellers",
+      "insight": "The mob is usually wrong. Consensus is comfortable but often mediocre. Dare to dissent."
+    },
+    {
+      "author": "Mark Twain",
+      "message": "The secret of getting ahead is getting started.",
+      "category": "Truth Tellers",
+      "insight": "The hardest friction is static friction. Once you move, momentum takes over."
+    },
+    {
+      "author": "Mark Twain",
+      "message": "Courage is resistance to fear, mastery of fear, not absence of fear.",
+      "category": "Truth Tellers",
+      "insight": "Bravery isn't feeling nothing; it's acting despite the feeling. Master the fear, don't erase it."
+    },
+    {
+      "author": "Karl Marx",
+      "message": "The philosophers have only interpreted the world, in various ways. The point, however, is to change it.",
+      "category": "Truth Tellers",
+      "insight": "Theory is useless without practice. Don't just think; do. Impact is the only measure."
+    },
+    {
+      "author": "Karl Marx",
+      "message": "History repeats itself, first as tragedy, second as farce.",
+      "category": "Truth Tellers",
+      "insight": "Learn from the past or look like a clown repeating it. Patterns echo; watch for them."
+    },
+    {
+      "author": "Karl Marx",
+      "message": "Machines were, it may be said, the weapon employed by the capitalists to quell the revolt of specialized labor.",
+      "category": "Truth Tellers",
+      "insight": "Technology disrupts leverage. Understand who owns the tool to understand who holds the power."
+    },
+    {
+      "author": "Niccol\u00c3\u00b2 Machiavelli",
+      "message": "It is better to be feared than loved, if you cannot be both.",
+      "category": "Truth Tellers",
+      "insight": "Love is fickle; fear is consistent. When leading, rely on what you can control, not others' emotions."
+    },
+    {
+      "author": "Niccol\u00c3\u00b2 Machiavelli",
+      "message": "Entrepreneurs are simply those who understand that there is little difference between obstacle and opportunity and are able to turn both to their advantage.",
+      "category": "Truth Tellers",
+      "insight": "The obstacle is the way. Every barrier filters out your competition."
+    },
+    {
+      "author": "Niccol\u00c3\u00b2 Machiavelli",
+      "message": "Whosoever desires constant success must change his conduct with the times.",
+      "category": "Truth Tellers",
+      "insight": "Adaptability again. What worked yesterday might fail today. Evolve or die."
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "message": "To go wrong in one's own way is better than to go right in someone else's.",
+      "category": "Architects of the Mind",
+      "insight": "Authentic failure is better than mimetic success. Own your path, even the errors."
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "message": "The soul is healed by being with children.",
+      "category": "Architects of the Mind",
+      "insight": "Innocence and play restore perspective. When the world feels heavy, look at it through young eyes."
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "message": "It takes something more than intelligence to act intelligently.",
+      "category": "Architects of the Mind",
+      "insight": "IQ isn't wisdom. Character determines how you use your smarts."
+    },
+    {
+      "author": "Carl Jung",
+      "message": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+      "category": "Architects of the Mind",
+      "insight": "Self-awareness is freedom. If you don't understand your drivers, you are a puppet to your own trauma."
+    },
+    {
+      "author": "Carl Jung",
+      "message": "I am not what happened to me, I am what I choose to become.",
+      "category": "Architects of the Mind",
+      "insight": "Victimhood is a trap. You define your narrative, not your history."
+    },
+    {
+      "author": "Carl Jung",
+      "message": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+      "category": "Architects of the Mind",
+      "insight": "Projection is a mirror. If you hate it in them, you probably fear it in yourself."
+    },
+    {
+      "author": "George Orwell",
+      "message": "In a time of deceit telling the truth is a revolutionary act.",
+      "category": "Architects of the Mind",
+      "insight": "Truth is dangerous when lies are structural. Be the glitch in the matrix."
+    },
+    {
+      "author": "George Orwell",
+      "message": "Who controls the past controls the future. Who controls the present controls the past.",
+      "category": "Architects of the Mind",
+      "insight": "Narrative is power. If you can rewrite history, you can program the future."
+    },
+    {
+      "author": "George Orwell",
+      "message": "If liberty means anything at all, it means the right to tell people what they do not want to hear.",
+      "category": "Architects of the Mind",
+      "insight": "Freedom is uncomfortable. Validating feelings isn't liberty; speaking hard truths is."
+    },
+    {
+      "author": "Oscar Wilde",
+      "message": "Be yourself; everyone else is already taken.",
+      "category": "Sharp Wits",
+      "insight": "Originality is your only competitive advantage. Imitation is suicide."
+    },
+    {
+      "author": "Oscar Wilde",
+      "message": "To live is the rarest thing in the world. Most people exist, that is all.",
+      "category": "Sharp Wits",
+      "insight": "Don't just survive. Design a life that is actually alive. Intentionality is rare."
+    },
+    {
+      "author": "Oscar Wilde",
+      "message": "Experience is simply the name we give our mistakes.",
+      "category": "Sharp Wits",
+      "insight": "Failure is tuition. You pay for wisdom with errors. Don't regret the cost."
+    },
+    {
+      "author": "Voltaire",
+      "message": "I disapprove of what you say, but I will defend to the death your right to say it.",
+      "category": "Sharp Wits",
+      "insight": "Free speech is absolute or it is nothing. Tolerance is tested only when you disagree."
+    },
+    {
+      "author": "Voltaire",
+      "message": "Judge a man by his questions rather than by his answers.",
+      "category": "Sharp Wits",
+      "insight": "Curiosity signals intelligence. Answers show memory; questions show understanding."
+    },
+    {
+      "author": "Voltaire",
+      "message": "Common sense is not so common.",
+      "category": "Sharp Wits",
+      "insight": "Don't assume competence. Most people are running on autopilot. Be the one who thinks."
+    }
+  ],
+  "part": 2,
+  "total_parts": 3,
+  "count": 45
+}

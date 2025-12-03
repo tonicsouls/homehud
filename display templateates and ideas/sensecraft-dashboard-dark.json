@@ -1,0 +1,456 @@
+{
+  "elements": [
+    {
+      "color": "#FFFFFF",
+      "dataTransform": {
+        "options": {
+          "dateFormat": "h:mm A",
+          "timezone": "America/Chicago",
+          "useCurrentTime": true
+        },
+        "type": "dateFormat"
+      },
+      "fontSize": 56,
+      "fontWeight": "bold",
+      "height": 68,
+      "id": "current-time",
+      "textAlign": "left",
+      "type": "date",
+      "width": 320,
+      "x": 40,
+      "y": 24
+    },
+    {
+      "color": "#CCCCCC",
+      "dataTransform": {
+        "options": {
+          "dateFormat": "EEEE, MMMM d, yyyy",
+          "timezone": "America/Chicago",
+          "useCurrentTime": true
+        },
+        "type": "dateFormat"
+      },
+      "fontSize": 22,
+      "height": 30,
+      "id": "current-date",
+      "textAlign": "left",
+      "type": "date",
+      "width": 320,
+      "x": 40,
+      "y": 92
+    },
+    {
+      "cornerRadius": 8,
+      "fill": "#1A1A1A",
+      "height": 160,
+      "id": "weather-section",
+      "stroke": "#333333",
+      "strokeWidth": 1,
+      "type": "round_rectangle",
+      "width": 340,
+      "x": 40,
+      "y": 138
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 18,
+      "fontWeight": "bold",
+      "height": 24,
+      "id": "weather-title",
+      "textAlign": "left",
+      "type": "text",
+      "value": "KELLER, TX",
+      "width": 120,
+      "x": 56,
+      "y": 150
+    },
+    {
+      "dataKey": "current.weather_code",
+      "dataTransform": {
+        "options": {
+          "predefinedFunction": "weatherIcon"
+        },
+        "type": "predefined"
+      },
+      "dataUrl": "https://sensecraft-hmi-api.seeed.cc/proxy/weather?latitude=32.9346&longitude=-97.2297",
+      "height": 64,
+      "id": "weather-icon",
+      "type": "weather_icon",
+      "width": 64,
+      "x": 56,
+      "y": 178
+    },
+    {
+      "color": "#FFFFFF",
+      "dataKey": "current.temperature_2m",
+      "dataUrl": "https://sensecraft-hmi-api.seeed.cc/proxy/weather?latitude=32.9346&longitude=-97.2297",
+      "decimalPrecision": 0,
+      "fontSize": 48,
+      "fontWeight": "bold",
+      "height": 58,
+      "id": "temp-value",
+      "textAlign": "right",
+      "type": "weather",
+      "width": 90,
+      "x": 130,
+      "y": 182,
+      "temperatureUnit": "fahrenheit"
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 28,
+      "height": 36,
+      "id": "temp-unit",
+      "textAlign": "left",
+      "type": "text",
+      "value": "°F",
+      "width": 40,
+      "x": 222,
+      "y": 188
+    },
+    {
+      "color": "#AAAAAA",
+      "dataKey": "current.weather_code",
+      "dataTransform": {
+        "options": {
+          "predefinedFunction": "weatherDescription"
+        },
+        "type": "predefined"
+      },
+      "dataUrl": "https://sensecraft-hmi-api.seeed.cc/proxy/weather?latitude=32.9346&longitude=-97.2297",
+      "fontSize": 16,
+      "height": 22,
+      "id": "weather-desc",
+      "textAlign": "left",
+      "type": "weather",
+      "width": 200,
+      "x": 56,
+      "y": 252,
+      "temperatureUnit": "fahrenheit"
+    },
+    {
+      "color": "#888888",
+      "fontSize": 14,
+      "height": 20,
+      "id": "humidity-label",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Humidity",
+      "width": 70,
+      "x": 280,
+      "y": 178
+    },
+    {
+      "color": "#FFFFFF",
+      "dataKey": "current.relative_humidity_2m",
+      "dataUrl": "https://sensecraft-hmi-api.seeed.cc/proxy/weather?latitude=32.9346&longitude=-97.2297",
+      "decimalPrecision": 0,
+      "fontSize": 24,
+      "fontWeight": "bold",
+      "height": 30,
+      "id": "humidity-value",
+      "textAlign": "left",
+      "type": "weather",
+      "width": 60,
+      "x": 280,
+      "y": 198,
+      "temperatureUnit": "fahrenheit"
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 24,
+      "height": 30,
+      "id": "humidity-unit",
+      "textAlign": "left",
+      "type": "text",
+      "value": "%",
+      "width": 24,
+      "x": 328,
+      "y": 198
+    },
+    {
+      "cornerRadius": 8,
+      "fill": "#1A1A1A",
+      "height": 160,
+      "id": "aligners-section",
+      "stroke": "#333333",
+      "strokeWidth": 1,
+      "type": "round_rectangle",
+      "width": 340,
+      "x": 40,
+      "y": 310
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 18,
+      "fontWeight": "bold",
+      "height": 24,
+      "id": "aligners-title",
+      "textAlign": "left",
+      "type": "text",
+      "value": "ISAAC'S ALIGNERS",
+      "width": 200,
+      "x": 56,
+      "y": 322
+    },
+    {
+      "color": "#00FF88",
+      "fontSize": 32,
+      "fontWeight": "bold",
+      "height": 40,
+      "id": "aligners-day",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Day 42 of 730",
+      "width": 200,
+      "x": 56,
+      "y": 354
+    },
+    {
+      "cornerRadius": 4,
+      "fill": "#333333",
+      "height": 20,
+      "id": "progress-bg",
+      "type": "round_rectangle",
+      "width": 300,
+      "x": 56,
+      "y": 402
+    },
+    {
+      "cornerRadius": 4,
+      "fill": "#00FF88",
+      "height": 20,
+      "id": "progress-bar",
+      "type": "round_rectangle",
+      "width": 17,
+      "x": 56,
+      "y": 402
+    },
+    {
+      "color": "#888888",
+      "fontSize": 14,
+      "height": 20,
+      "id": "aligners-percent",
+      "textAlign": "left",
+      "type": "text",
+      "value": "6% Complete",
+      "width": 100,
+      "x": 56,
+      "y": 430
+    },
+    {
+      "color": "#FFAA00",
+      "fontSize": 14,
+      "fontWeight": "bold",
+      "height": 20,
+      "id": "aligners-next",
+      "textAlign": "right",
+      "type": "text",
+      "value": "Next: Tuesday",
+      "width": 120,
+      "x": 236,
+      "y": 430
+    },
+    {
+      "cornerRadius": 8,
+      "fill": "#1A1A1A",
+      "height": 320,
+      "id": "todos-section",
+      "stroke": "#333333",
+      "strokeWidth": 1,
+      "type": "round_rectangle",
+      "width": 360,
+      "x": 400,
+      "y": 24
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 18,
+      "fontWeight": "bold",
+      "height": 24,
+      "id": "todos-title",
+      "textAlign": "left",
+      "type": "text",
+      "value": "TODAY'S TASKS",
+      "width": 200,
+      "x": 420,
+      "y": 40
+    },
+    {
+      "color": "#00FF88",
+      "fontSize": 14,
+      "height": 20,
+      "id": "todo-bullet-1",
+      "textAlign": "left",
+      "type": "text",
+      "value": "○",
+      "width": 20,
+      "x": 420,
+      "y": 76
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 16,
+      "height": 44,
+      "id": "todo-1",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Review project dashboard",
+      "width": 310,
+      "x": 442,
+      "y": 74
+    },
+    {
+      "color": "#00FF88",
+      "fontSize": 14,
+      "height": 20,
+      "id": "todo-bullet-2",
+      "textAlign": "left",
+      "type": "text",
+      "value": "○",
+      "width": 20,
+      "x": 420,
+      "y": 122
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 16,
+      "height": 44,
+      "id": "todo-2",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Update calendar events",
+      "width": 310,
+      "x": 442,
+      "y": 120
+    },
+    {
+      "color": "#00FF88",
+      "fontSize": 14,
+      "height": 20,
+      "id": "todo-bullet-3",
+      "textAlign": "left",
+      "type": "text",
+      "value": "○",
+      "width": 20,
+      "x": 420,
+      "y": 168
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 16,
+      "height": 44,
+      "id": "todo-3",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Check Isaac's aligners",
+      "width": 310,
+      "x": 442,
+      "y": 166
+    },
+    {
+      "color": "#555555",
+      "fontSize": 14,
+      "height": 20,
+      "id": "todo-bullet-4",
+      "textAlign": "left",
+      "type": "text",
+      "value": "○",
+      "width": 20,
+      "x": 420,
+      "y": 214
+    },
+    {
+      "color": "#888888",
+      "fontSize": 16,
+      "height": 44,
+      "id": "todo-4",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Evening workout",
+      "width": 310,
+      "x": 442,
+      "y": 212
+    },
+    {
+      "color": "#555555",
+      "fontSize": 14,
+      "height": 20,
+      "id": "todo-bullet-5",
+      "textAlign": "left",
+      "type": "text",
+      "value": "○",
+      "width": 20,
+      "x": 420,
+      "y": 260
+    },
+    {
+      "color": "#888888",
+      "fontSize": 16,
+      "height": 44,
+      "id": "todo-5",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Read 10 pages",
+      "width": 310,
+      "x": 442,
+      "y": 258
+    },
+    {
+      "cornerRadius": 8,
+      "fill": "#1A1A1A",
+      "height": 116,
+      "id": "quote-section",
+      "stroke": "#333333",
+      "strokeWidth": 1,
+      "type": "round_rectangle",
+      "width": 360,
+      "x": 400,
+      "y": 354
+    },
+    {
+      "color": "#00FF88",
+      "fontSize": 28,
+      "height": 36,
+      "id": "quote-mark",
+      "textAlign": "left",
+      "type": "text",
+      "value": "❝",
+      "width": 36,
+      "x": 416,
+      "y": 366
+    },
+    {
+      "color": "#FFFFFF",
+      "fontSize": 18,
+      "height": 50,
+      "id": "quote-text",
+      "textAlign": "left",
+      "type": "text",
+      "value": "Calm Mind, Driven Performance",
+      "width": 310,
+      "x": 420,
+      "y": 400
+    },
+    {
+      "color": "#888888",
+      "fontSize": 14,
+      "height": 20,
+      "id": "quote-subtitle",
+      "textAlign": "right",
+      "type": "text",
+      "value": "— Daily Mantra",
+      "width": 120,
+      "x": 620,
+      "y": 440
+    }
+  ],
+  "stageElements": [],
+  "container": {
+    "background": "#000000",
+    "width": 800,
+    "height": 480,
+    "x": 600,
+    "y": 510
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "elements": [
+    {
+      "color": "#FF6600",
+      "fontSize": 28,
+      "fontWeight": "bold",
+      "height": 40,
+      "id": "hn-title",
+      "textAlign": "left",
+      "type": "text",
+      "value": "HACKER NEWS",
+      "width": 300,
+      "x": 20,
+      "y": 10
+    },
+    {
+      "color": "#666666",
+      "dataTransform": {
+        "options": {
+          "dateFormat": "MM/dd/yyyy",
+          "timezone": "America/Chicago",
+          "useCurrentTime": true
+        },
+        "type": "dateFormat"
+      },
+      "fontSize": 16,
+      "height": 24,
+      "id": "hn-date",
+      "textAlign": "right",
+      "type": "date",
+      "width": 150,
+      "x": 630,
+      "y": 18
+    },
+    {
+      "color": "#FF6600",
+      "fontSize": 13,
+      "fontWeight": "bold",
+      "height": 32,
+      "id": "story-1",
+      "textAlign": "left",
+      "type": "text",
+      "value": "1. Loading headlines...",
+      "width": 760,
+      "x": 20,
+      "y": 55
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-2",
+      "textAlign": "left",
+      "type": "text",
+      "value": "2. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 90
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-3",
+      "textAlign": "left",
+      "type": "text",
+      "value": "3. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 125
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-4",
+      "textAlign": "left",
+      "type": "text",
+      "value": "4. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 160
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-5",
+      "textAlign": "left",
+      "type": "text",
+      "value": "5. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 195
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-6",
+      "textAlign": "left",
+      "type": "text",
+      "value": "6. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 230
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-7",
+      "textAlign": "left",
+      "type": "text",
+      "value": "7. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 265
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-8",
+      "textAlign": "left",
+      "type": "text",
+      "value": "8. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 300
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-9",
+      "textAlign": "left",
+      "type": "text",
+      "value": "9. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 335
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-10",
+      "textAlign": "left",
+      "type": "text",
+      "value": "10. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 370
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-11",
+      "textAlign": "left",
+      "type": "text",
+      "value": "11. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 405
+    },
+    {
+      "color": "#CCCCCC",
+      "fontSize": 13,
+      "height": 32,
+      "id": "story-12",
+      "textAlign": "left",
+      "type": "text",
+      "value": "12. Placeholder story",
+      "width": 760,
+      "x": 20,
+      "y": 440
+    }
+  ],
+  "stageElements": [],
+  "container": {
+    "background": "#000000",
+    "width": 800,
+    "height": 480,
+    "x": 600,
+    "y": 510
+  }
+}

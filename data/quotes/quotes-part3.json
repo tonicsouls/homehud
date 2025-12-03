@@ -1,0 +1,367 @@
+{
+  "quotes": [
+    {
+      "author": "Margaret Thatcher",
+      "message": "You may have to fight a battle more than once to win it.",
+      "category": "Iron Wills",
+      "insight": "Persistence beats resistance. Just because you won yesterday doesn't mean the war is over."
+    },
+    {
+      "author": "Margaret Thatcher",
+      "message": "If you want something said, ask a man; if you want something done, ask a woman.",
+      "category": "Iron Wills",
+      "insight": "Talk is cheap. Execution is everything. Be the one who gets it done."
+    },
+    {
+      "author": "Margaret Thatcher",
+      "message": "Plan your work for today and every day, then work your plan.",
+      "category": "Iron Wills",
+      "insight": "Strategy without execution is hallucination. Discipline bridges the gap."
+    },
+    {
+      "author": "Otto von Bismarck",
+      "message": "Politics is the art of the possible.",
+      "category": "Iron Wills",
+      "insight": "Idealism must meet reality. Focus on what can be done, not just what should be done."
+    },
+    {
+      "author": "Otto von Bismarck",
+      "message": "Fools say that they learn by experience. I prefer to profit by others' experience.",
+      "category": "Iron Wills",
+      "insight": "Tuition is expensive; read a book. Learn from others' failures so you don't have to repeat them."
+    },
+    {
+      "author": "Otto von Bismarck",
+      "message": "The main thing is to make history, not to write it.",
+      "category": "Iron Wills",
+      "insight": "Action over documentation. Be the protagonist, not the narrator."
+    },
+    {
+      "author": "Jeff Bezos",
+      "message": "If you double the number of experiments you do per year you're going to double your inventiveness.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Innovation is a volume game. Velocity of experimentation determines velocity of success."
+    },
+    {
+      "author": "Jeff Bezos",
+      "message": "I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Project yourself to age 80. Will you regret the safety or the risk? Optimize for the latter."
+    },
+    {
+      "author": "Jeff Bezos",
+      "message": "It's always Day 1.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Stasis is death. Day 2 is stasis. Remain in the start-up phase of hunger forever."
+    },
+    {
+      "author": "Peter Thiel",
+      "message": "Competition is for losers.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Don't compete; create a monopoly. Solve a unique problem so well that you have no rivals."
+    },
+    {
+      "author": "Peter Thiel",
+      "message": "The best way to get a job is to not look for a job. It's to look for a problem.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Value isn't in filling a role; it's in solving a pain point. Be the solution, not the applicant."
+    },
+    {
+      "author": "Peter Thiel",
+      "message": "If you have a 10-year plan of how to get somewhere, you should ask: why can't you do this in 6 months?",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Question your timeline assumptions. Speed is a choice. Force the timeline to break the norm."
+    },
+    {
+      "author": "Naval Ravikant",
+      "message": "Play long-term games with long-term people.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Compound interest applies to relationships and reputation, not just money. Pick partners for life."
+    },
+    {
+      "author": "Naval Ravikant",
+      "message": "Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "You can't be competed with on being you. Authenticity is the ultimate moat."
+    },
+    {
+      "author": "Naval Ravikant",
+      "message": "Wealth is having assets that earn while you sleep. Money is how we transfer time and wealth.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Stop renting out your time. Build equity, code, or media that works when you don't."
+    },
+    {
+      "author": "Paul Graham",
+      "message": "Do things that don't scale.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Early growth comes from manual grinding. Hand-recruit users to build the fire before automation takes over."
+    },
+    {
+      "author": "Paul Graham",
+      "message": "You can't be relentlessly resourceful if you're not relentless.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Resourcefulness isn't a hack; it's a refusal to die. It's the definition of a startup founder."
+    },
+    {
+      "author": "Paul Graham",
+      "message": "Keep your identity small.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "The more labels you accept, the stupider you become. Remain fluid to see the truth."
+    },
+    {
+      "author": "Charlie Munger",
+      "message": "Invert, always invert: Turn a situation or problem upside down.",
+      "category": "Business Inspiration",
+      "insight": "Don't just ask how to succeed; ask how to fail, and avoid that. Avoiding stupidity is easier than seeking brilliance."
+    },
+    {
+      "author": "Charlie Munger",
+      "message": "The big money is not in the buying and the selling, but in the waiting.",
+      "category": "Business Inspiration",
+      "insight": "Patience is an arbitrage. Most people can't sit still; if you can, you win."
+    },
+    {
+      "author": "Charlie Munger",
+      "message": "To get what you want, you have to deserve what you want. The world is not yet a crazy enough place to reward a whole bunch of undeserving people.",
+      "category": "Business Inspiration",
+      "insight": "Meritocracy exists in the long run. Focus on becoming the person who attracts success."
+    },
+    {
+      "author": "Sam Altman",
+      "message": "Compound growth is the most powerful force in the universe.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Small improvements daily create exponential curves. Most people underestimate the end of the curve."
+    },
+    {
+      "author": "Sam Altman",
+      "message": "Determination is the most important predictor of success.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Smart is common. Determined is rare. Grit outlasts genius."
+    },
+    {
+      "author": "Satya Nadella",
+      "message": "Empathy makes you a better innovator.",
+      "category": "Business Inspiration",
+      "insight": "Innovation isn't code; it's understanding needs. You can't build for people you don't understand."
+    },
+    {
+      "author": "Reid Hoffman",
+      "message": "If you are not embarrassed by the first version of your product, you've launched too late.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Speed of learning beats quality of debut. Get feedback before you get perfect."
+    },
+    {
+      "author": "Ben Horowitz",
+      "message": "The hard thing isn't setting a big, hairy, audacious goal. The hard thing is laying people off when you miss the goal.",
+      "category": "Business Inspiration",
+      "insight": "Leadership is easy when winning. Character is revealed in the nasty, gritty details of failure."
+    },
+    {
+      "author": "Andy Grove",
+      "message": "Only the paranoid survive.",
+      "category": "Business Inspiration",
+      "insight": "Success breeds complacency. Constant vigilance against disruption is the only safety."
+    },
+    {
+      "author": "Nassim Taleb",
+      "message": "The three most harmful addictions are heroin, carbohydrates, and a monthly salary.",
+      "category": "Truth Tellers",
+      "insight": "Comfort kills ambition. Risk is the only path to true sovereignty."
+    },
+    {
+      "author": "Nassim Taleb",
+      "message": "Antifragility is beyond resilience or robustness. The resilient resists shocks and stays the same; the antifragile gets better.",
+      "category": "Truth Tellers",
+      "insight": "Don't just survive chaos; profit from it. Build systems that feed on disorder."
+    },
+    {
+      "author": "Nassim Taleb",
+      "message": "Don't tell me what you 'think', show me your portfolio.",
+      "category": "Truth Tellers",
+      "insight": "Opinion is cheap. Exposure is proof. Only trust those who have something to lose."
+    },
+    {
+      "author": "Christopher Hitchens",
+      "message": "That which can be asserted without evidence can be dismissed without evidence.",
+      "category": "Truth Tellers",
+      "insight": "Demand proof. The burden of truth is on the claimant. Skepticism is an intellectual shield."
+    },
+    {
+      "author": "Christopher Hitchens",
+      "message": "Take the risk of thinking for yourself. Much more happiness, truth, beauty, and wisdom will come to you that way.",
+      "category": "Truth Tellers",
+      "insight": "Consensus is boring. The unique life is found in the lonely intellectual territory."
+    },
+    {
+      "author": "H.L. Mencken",
+      "message": "For every complex problem there is an answer that is clear, simple, and wrong.",
+      "category": "Truth Tellers",
+      "insight": "Beware of easy answers. Complexity requires nuance; populism offers slogans."
+    },
+    {
+      "author": "George Orwell",
+      "message": "Freedom is the right to tell people what they do not want to hear.",
+      "category": "Truth Tellers",
+      "insight": "Politeness is not a virtue when truth is at stake. Offense is the price of liberty."
+    },
+    {
+      "author": "Ayn Rand",
+      "message": "The question isn't who is going to let me; it's who is going to stop me.",
+      "category": "Truth Tellers",
+      "insight": "Permission is for children. Builders take agency. Force the world to react to you."
+    },
+    {
+      "author": "Ayn Rand",
+      "message": "Productive work is the central purpose of a rational man's life.",
+      "category": "Truth Tellers",
+      "insight": "Purpose isn't found in leisure; it's found in building. Value creation is the highest moral act."
+    },
+    {
+      "author": "Socrates",
+      "message": "The unexamined life is not worth living.",
+      "category": "Architects of the Mind",
+      "insight": "Autopilot is a form of death. Constant self-reflection is the only way to truly exist."
+    },
+    {
+      "author": "Viktor Frankl",
+      "message": "Between stimulus and response there is a space. In that space is our power to choose our response.",
+      "category": "Architects of the Mind",
+      "insight": "You cannot control the event, but you can always control the narrative you build around it."
+    },
+    {
+      "author": "Viktor Frankl",
+      "message": "Those who have a 'why' to live, can bear with almost any 'how'.",
+      "category": "Architects of the Mind",
+      "insight": "Purpose is armor. If your goal is strong enough, the suffering becomes bearable."
+    },
+    {
+      "author": "Jordan Peterson",
+      "message": "If you can't understand why someone is doing something, look at the consequences of their actions, and infer the motivation.",
+      "category": "Architects of the Mind",
+      "insight": "People lie to themselves. Outcomes don't lie. Judge systems by what they produce, not what they say."
+    },
+    {
+      "author": "Jordan Peterson",
+      "message": "Compare yourself to who you were yesterday, not to who someone else is today.",
+      "category": "Architects of the Mind",
+      "insight": "Envy is poison. Growth is relative to your own baseline. Play your own game."
+    },
+    {
+      "author": "Jordan Peterson",
+      "message": "Tell the truth \u00e2\u20ac\u201c or, at least, don't lie.",
+      "category": "Architects of the Mind",
+      "insight": "Lying warps your reality. To navigate the world, your map must remain accurate."
+    },
+    {
+      "author": "Friedrich Nietzsche",
+      "message": "He who fights with monsters should look to it that he himself does not become a monster.",
+      "category": "Architects of the Mind",
+      "insight": "In fighting the enemy, beware of adopting their tactics. The abyss looks back."
+    },
+    {
+      "author": "Friedrich Nietzsche",
+      "message": "You must have chaos within you to give birth to a dancing star.",
+      "category": "Architects of the Mind",
+      "insight": "Order is sterile. Innovation and brilliance come from the turbulent, messy parts of your soul."
+    },
+    {
+      "author": "Marcus Aurelius",
+      "message": "The impediment to action advances action. What stands in the way becomes the way.",
+      "category": "Architects of the Mind",
+      "insight": "Obstacles are not road blocks; they are the road. Use the friction to gain traction."
+    },
+    {
+      "author": "Epictetus",
+      "message": "It's not what happens to you, but how you react to it that matters.",
+      "category": "Architects of the Mind",
+      "insight": "External events are neutral data points. Your internal judgment assigns them value."
+    },
+    {
+      "author": "Daniel Kahneman",
+      "message": "Confidence is a feeling, which reflects the coherence of the information and the cognitive ease of processing it.",
+      "category": "Architects of the Mind",
+      "insight": "Don't trust your gut blindly. Confidence often just means you've constructed a simple (and wrong) story."
+    },
+    {
+      "author": "Robert Greene",
+      "message": "Always conceal your intentions.",
+      "category": "Architects of the Mind",
+      "insight": "Information is leverage. If they don't know your goal, they can't defend against it."
+    },
+    {
+      "author": "Robert Greene",
+      "message": "Win through your actions, never through argument.",
+      "category": "Architects of the Mind",
+      "insight": "Arguments create resentment. Results create compliance. Show, don't tell."
+    },
+    {
+      "author": "David Goggins",
+      "message": "The most important conversation is the one you have with yourself.",
+      "category": "Iron Wills",
+      "insight": "You are your own worst enemy and best coach. Master the internal monologue."
+    },
+    {
+      "author": "Jocko Willink",
+      "message": "Discipline equals freedom.",
+      "category": "Iron Wills",
+      "insight": "Structure creates the space for creativity. Laxity creates the prison of chaos."
+    },
+    {
+      "author": "James Clear",
+      "message": "You do not rise to the level of your goals. You fall to the level of your systems.",
+      "category": "Architects of the Mind",
+      "insight": "Goals are dreams; systems are reality. Fix the daily routine, and the outcome fixes itself."
+    },
+    {
+      "author": "Seth Godin",
+      "message": "Real artists ship.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Ideas are cheap. The only art that counts is the art that meets the audience."
+    },
+    {
+      "author": "Simon Sinek",
+      "message": "People don't buy what you do; they buy why you do it.",
+      "category": "Business Inspiration",
+      "insight": "Motivation scales. Features don't inspire loyalty; belief systems do."
+    },
+    {
+      "author": "Ray Dalio",
+      "message": "Pain + Reflection = Progress.",
+      "category": "Business Inspiration",
+      "insight": "Suffering is wasted without analysis. Convert every failure into a principle for the future."
+    },
+    {
+      "author": "Ray Dalio",
+      "message": "If you're not failing, you're not pushing your limits, and if you're not pushing your limits, you're not maximizing your potential.",
+      "category": "Business Inspiration",
+      "insight": "Comfort is the enemy of growth. Failure is the signal that you are operating at the edge of your capacity."
+    },
+    {
+      "author": "Ray Dalio",
+      "message": "Truth - more precisely, an accurate understanding of reality - is the essential foundation for producing good outcomes.",
+      "category": "Business Inspiration",
+      "insight": "Delusion is expensive. You must see the world as it is, not as you wish it to be, to navigate it effectively."
+    },
+    {
+      "author": "Ray Dalio",
+      "message": "Don't let fears of what others think of you stand in your way.",
+      "category": "Business Inspiration",
+      "insight": "Reputation is a lagging indicator. Results are a leading indicator. Focus on the latter."
+    },
+    {
+      "author": "Ray Dalio",
+      "message": "Choosing your habits is choosing your future.",
+      "category": "Business Inspiration",
+      "insight": "You are what you do repeatedly. Excellence is not an act, but a habit loop you design."
+    },
+    {
+      "author": "Seth Godin",
+      "message": "The cost of being wrong is less than the cost of doing nothing.",
+      "category": "Entrepreneurial Inspiration",
+      "insight": "Paralysis is the most expensive mistake. A wrong turn can be corrected; standing still cannot."
+    }
+  ],
+  "part": 3,
+  "total_parts": 3,
+  "count": 59
+}
